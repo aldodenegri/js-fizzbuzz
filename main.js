@@ -1,6 +1,6 @@
 let textJS = document.getElementById("textJS");
 let output = "";
-for(let i=0;i<101;i++)//101 numeri in totale, voglio vedere sia lo 0 che il 100
+for(let i=1;i<=100;i++)//in alterantiiva posso usare anche for(let i=1;i<101;i++)
     {
         
         //controllo se il numero è multiplo di 3 e 5 tramite l'operatore modulo %, il resto della divisione
