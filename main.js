@@ -1,7 +1,6 @@
 let textJS = document.getElementById("textJS");
 let output = "";
 let outputReverse = "";
-textJS.innerHTML = ""; //svuoto il contenuto html prima di iniziare il ciclo
 for (let i = 1, j = 100; i <= 100 && j >= 0; i++, j--)//in alterantiiva posso usare anche for(let i=1;i<101;i++)
 {
     //la logica dei cotrolli per i e per j devono essere separate altrimenti si sovrascrivono a vicenda e non ottengo il controllo desierato
